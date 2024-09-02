@@ -1,0 +1,314 @@
+<!-- localhost/happyou0912/Grill/index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 450px)" type="text/css" href="css/mobile.css"><!-- 450px以下 -->
+    <title>Grill</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav class="nav">
+                <div class="navtitle">
+                    <a href="index.html">
+                        <h2 class="kaushan-script-regular">
+                            GRILL
+                        </h2>
+                    </a>
+                </div>
+                <div class="navlinks">
+                    <ul>
+                        <a href="#about"><li>About</li></a>
+                        <a href="#news"><li>News</li></a>
+                        <a href="#menu"><li>Menu</li></a>
+                        <a href="#access"><li>Access</li></a>
+                        <a href="#book"><li>Book</li></a>
+                        <a href="#contact"><li>Contact</li></a>
+                        <a href="#gallery"><li>Gallery</li></a>
+                    </ul>
+                </div>
+                <!-- ハンバーガーメニュー -->
+                <div class="hamburger-menu">
+                    <input type="checkbox" id="menu-btn-check">
+                    <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                    <div class="menu-content">
+                        <ul>
+                        <a href="#about"><li>About</li></a>
+                        <a href="#news"><li>News</li></a>
+                        <a href="#menu"><li>Menu</li></a>
+                        <a href="#access"><li>Access</li></a>
+                        <a href="#book"><li>Book</li></a>
+                        <a href="#contact"><li>Contact</li></a>
+                        <a href="#gallery"><li>Gallery</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="title">
+            <p class="kaushan-script-regular">GRILL</p>
+        </div>
+        <div class="subtitle">
+            <p class="kaushan-script-regular">Nomeat&nbsp;Nolife</p>
+        </div>
+        <div class="reserve">
+            <a href="#book"><p>ご予約</p></a>
+        </div>
+    </header>
+    <main>
+        <div class="contents-wrapper">
+            <div id="about">
+                <h2 class="kaushan-script-regular">About</h2>
+                <div class="abcontent">
+                    <p class="abtxt">
+                        <span  class="kaushan-script-regular">Nomeat&nbsp;Nolife </span><br>
+                        本場の炭火焼きの<br>
+                        美味しさを味わう<br>
+                        AmericanStyleBBQ
+                    </p>
+                </div>
+                <div class="parallax_box">
+                    <div class="parallax_content img_bg_01"></div>
+                </div>
+            </div>
+            <div id="news">
+                <h2 class="kaushan-script-regular">News</h2>
+                <div class="news-wrapper">
+                    <ul class="news_list">
+                        
+                        <li class="news_list_item">
+                            <a href="index.html">
+                                <div class="news_list_date">
+                                    <time>2024.07.07</time>
+                                    <p class="news_item">お知らせ</p>
+                                </div>
+                                <p>サイト新規開設いたしました。</p>
+                                <span class="arrow"></span>
+                            </a>
+                        </li>
+                        <li class="news_list_item">
+                            <a href="https://www.instagram.com/">
+                                <div class="news_list_date">
+                                <time>2024.08.31</time>
+                                <p class="news_item">お知らせ</p>
+                                </div>
+                                <p>Instagramアカウント開設いたしました。</p>
+                                <span class="arrow"></span>
+                            </a>
+                        </li>
+                        <li class="news_list_item">
+                            <a href="https://x.com/?lang=ja">
+                                <div class="news_list_date">
+                                <time>2024.08.31</time>
+                                <p class="news_item">お知らせ</p>
+                                </div>
+                                <p>Xアカウント開設いたしました。</p>
+                                <span class="arrow"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="parallax_box">
+                        <div class="parallax_content img_bg_02"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu">
+                <h2 class="kaushan-script-regular">Menu</h2>
+                <div class="menulist">
+                    <div class="listwrapper">
+                        <ul class="tab">
+                            <li><a href="#Grill">Grill</a></li>
+                            <li><a href="#Salad">Salad</a></li>
+                            <li><a href="#Drink">Drink</a></li>
+                        </ul>
+                        
+                        <div id="Grill" class="area">
+                            <h3 class="kaushan-script-regular">Grill Special</h3>
+                            <ul>
+                                <li>ステーキ<p>$29</p></li>
+                                <li>サーロイン<p>$29</p></li>
+                                <li>スペアリブ<p>$29</p></li>
+                            </ul>
+                        </div><!--/area-->
+                        <div id="Salad" class="area">
+                            <h3 class="kaushan-script-regular">Salad</h3>
+                            <ul>
+                                <li>サラダ<p>$8.31</p></li>
+                                <li>シーザーサラダ<p>$8.31</p></li>
+                            </ul>
+                            </div><!--/area-->
+                        <div id="Drink" class="area">
+                            <h3 class="kaushan-script-regular">Drink</h3>
+                            <ul>
+                                <li>ウーロン茶<p>$1</p></li>
+                                <li>コーラ<p>$2</p></li>
+                                <li>ビール<p>$3</p></li>
+                            </ul>
+                        </div><!--/area-->
+                    </div>
+                    <!-- slider -->
+                    <div class="slider" id="menuslider">
+                        <div><img src="img/grill3.jpg" alt=""></div>
+                        <div><img src="img/grill2.jpg" alt=""></div>
+                        <div><img src="img/grill5.jpg" alt=""></div>
+                        <div><img src="img/alcohol.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div id="access">
+                <h2 class="kaushan-script-regular">Access</h2>
+                <div class="access">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5144.507367217412!2d139.76320792715555!3d35.681053607334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1722475159952!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="accessTxt">
+                        <h3>Address</h3>
+                        <div class="Address">
+                            <p>GRiLL</p>
+                            <p>東京都渋谷区109番地428</p>
+                            <p>営業時間:毎日&nbsp;17:00~24:00(Lo23:00~)</p>
+                            <p>TEL:000-XXXX-XXXX&nbsp;☎</p>
+                        </div>
+                        <!-- <div class="btBlock">
+                            <a href="#">
+                                <button class="button">
+                                    <p>googleMap</p>
+                                </button>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div id="book">
+                <h2 class="kaushan-script-regular">Book</h2>
+                <div class="form">
+                    <form action="post-book.php" method="post">
+                        <p>
+                            お名前<br>
+                            <input type="text" name="name" value="">
+                        </p>
+                        <p>
+                            メールアドレス<br>
+                            <input type="email" name="user_mail">
+                        </p>
+                        <p>
+                            電話番号<br>
+                            <input type="tel" name="telNumber" size="17" pattern="\d{1,5}-\d{1,4}-\d{4,5}" placeholder="000-0000-0000" title="電話番号は、市外局番からハイフン（-）を入れて記入してください。" required>
+                        </p>
+                        <p>
+                            予約月日<br>
+                            <input type="date" id="Date" name="date" required>
+                        </p>
+                        <p>
+                            時間<br>
+                            <input type="time" name="time" min="17:00" max="23:00"> 
+                            <!-- 時間指定はブラウザで無効となっている -->
+                        </p>
+                        <p>
+                            人数<br>
+                            <input type="number" name="number" class="inputNumber" min="1" max="20" required>
+                        </p>
+                        <p>
+                            備考<br>
+                            <textarea name="other"></textarea>
+                        </p>
+                        <div class="formbutton">
+                            <button>
+                                <p class="reset">
+                                    <input type="reset" value="リセット">
+                                </p>
+                            </button>
+                            <button>
+                                <p class="submit">
+                                    <input type="submit" value="送信">
+                                </p>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="contact">
+                <h2 class="kaushan-script-regular">contact</h2>
+                <div class="form">
+                    <form action="post-contact.php" method="post">
+                        <p>
+                            お名前<br>
+                            <input type="text" name="name" value="">
+                        </p>
+                        <p>
+                            メールアドレス<br>
+                            <input type="email" name="user_mail">
+                        </p>
+                        <p>
+                            電話番号<br>
+                            <input type="tel" name="telNumber" size="17" pattern="\d{1,5}-\d{1,4}-\d{4,5}" placeholder="000-0000-0000" title="電話番号は、市外局番からハイフン（-）を入れて記入してください。" required>
+                        </p>
+                        <p>
+                            お問合せ内容<br>
+                            <textarea name="other"></textarea>
+                        </p>
+                        <div class="formbutton">
+                            <button>
+                                <p class="reset">
+                                    <input type="reset" value="リセット">
+                                </p>
+                            </button>
+                            <button>
+                                <p class="submit">
+                                    <input type="submit" value="送信">
+                                </p>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div> 
+            <div id="gallery">
+                <h2 class="kaushan-script-regular">Gallery</h2>
+                <div class="parent">
+                    <img class="box" src="img/chef.jpg" alt="" width="230px" height="330px" >
+                    <img class="box" src="img/grill4.jpg" alt="" width="230px" height="160px" >
+                    <img class="box" src="img/grill5.jpg" alt="" width="230px" height="160px" >
+                    <img class="box" src="img/grill3.jpg" alt="" width="230px" height="160px" >
+                    <img class="box" src="img/grill2.jpg" alt="" width="230px" height="160px" >
+                    <img class="box" src="img/alcohol.jpg" alt="" width="230px" height="160px" >
+                    <img class="box" src="img/grill1.jpg" alt="" width="230px" height="160px" >
+                </div>
+            </div> 
+            <div class="container">
+                <a href="#" class="elm">TOP</a>
+              </div>  
+        </div>
+    </main>
+    <footer>
+        <div class="footer-text">
+            <a href="index.html">
+                <h2 class="kaushan-script-regular">
+                    GRILL
+                </h2>
+            </a>
+        </div>
+        <div class="copyrights">
+            <p>&copy; 2023 Grill. All rights reserved.</p>
+        </div>
+        <div class="SNS">
+        <a href="https://www.instagram.com/"><img src="img/instagram.png" alt=""></a>
+        <a href="https://x.com/?lang=ja"><img src="img/logo-white.png" alt=""></a>
+        </div>
+    </footer>
+    <script src="js/menutab.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/linkmove.js"></script>
+    <script src="js/linkmove(hamburgerMenu).js"></script>
+    <script src="js/fade-in.js"></script>
+</body>
+</html>
